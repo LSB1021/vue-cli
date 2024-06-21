@@ -1,5 +1,6 @@
 export default {
     install(Vue){
+        // 增强Vue，（个人理解和Vue有关的配置都可以写在此内，之后可以进行尝试）
         // console.log('@@@install',Vue);
 
         //全局过滤器
