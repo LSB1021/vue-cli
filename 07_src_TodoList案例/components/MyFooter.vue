@@ -26,6 +26,10 @@
                 },0)
                 console.log('###',x); */
                 return this.todos.reduce((pre,current)=> pre + (current.done ? 1 : 0),0)
+
+		//es6中的reduce方法，是一种数组的归并方法，和迭代方法（map,forEach,filter...）一样，都会对数组进行遍历，不同之处是reduce函数的第一个参数得到的是迭代计算后的结果
+                //详情方法信息可参考：https://blog.csdn.net/SoULikeMe/article/details/109088548
+		    
             },
             isAll:{
                 get(){
