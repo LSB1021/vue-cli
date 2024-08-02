@@ -11,5 +11,6 @@ new Vue({
     render:h => h(App),
     beforeCreate(){
         Vue.prototype.$bus = this //安装全局事件总线  自定义的$bus总线
+        //对象的隐式原型的值为其对应构造函数的显式原型的值
     }
 })
